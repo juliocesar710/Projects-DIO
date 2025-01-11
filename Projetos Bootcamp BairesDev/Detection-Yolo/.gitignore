@@ -1,0 +1,23 @@
+# Logs
+*.log
+
+# Python compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Environment folders
+env/
+venv/
+
+# Output folders
+/content/darknet/data/detected_images/
+backup/
+
+# Config files
+cfg/*.weights
+cfg/yolov3_custom.cfg
+
+# System files
+.DS_Store
+Thumbs.db
